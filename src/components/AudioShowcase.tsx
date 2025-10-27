@@ -11,7 +11,7 @@ interface AudioPlayerProps {
 
 const AudioPlayer = ({ title, scenario, outcome, duration }: AudioPlayerProps) => {
   const [isPlaying, setIsPlaying] = useState(false);
-  const [progress, setProgress] = useState(0);
+  const [progress] = useState(0);
 
   const togglePlay = () => {
     setIsPlaying(!isPlaying);
