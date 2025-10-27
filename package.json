@@ -10,7 +10,8 @@
     "preview": "vite preview",
     "typecheck": "tsc --noEmit -p tsconfig.app.json",
     "build:production": "npm run typecheck && npm run lint && npm run build",
-    "deploy:preview": "npm run build && npm run preview"
+    "deploy:preview": "npm run build && npm run preview",
+    "build:hostinger": "npm run build:production && echo 'Build complete! Upload the entire project folder to Hostinger.'"
   },
   "dependencies": {
     "@react-three/drei": "^9.122.0",
