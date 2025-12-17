@@ -10,7 +10,7 @@ header('Cache-Control: no-cache, no-store, must-revalidate');
 header('Pragma: no-cache');
 header('Expires: 0');
 
-// Check if the built React app exists
+// Check if the built React app exists or not
 $distPath = __DIR__ . '/dist';
 $indexFile = $distPath . '/index.html';
 
